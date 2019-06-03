@@ -1,0 +1,16 @@
+{
+  "name": "ecobee--dot-com-team",
+  "version": "1.0.0",
+  "description": "A presentation using mdx and mdx-deck",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^2.3.2"
+  }
+}
