@@ -1,8 +1,18 @@
-import {Appear} from 'mdx-deck'
+import { future } from '@mdx-deck/themes'
+import customTheme from './theme'
+import {Appear, Head} from 'mdx-deck'
+
+export const themes = [future, customTheme]
+
+<Head>
+    <title>ecobee's dot-com team -- building a flagship</title>
+</Head>
 
 # ecobee's dot-com team
 ## Building a 🏳🛳
+
 ---
+
 ## The team
 <ul>
     <Appear>
@@ -36,7 +46,9 @@ import {Appear} from 'mdx-deck'
 - Operations
 - Home services (find-a-pro)
 - Indiviual product teams, (e.g. SmartBuildings)
+
 ---
+
 ## Then...
 
 - WordPress install 
@@ -85,5 +97,3 @@ import {Appear} from 'mdx-deck'
 - Build static content from API-driven CMS
 - Use Shopify APIs to provide a seamless eCommerce experience
 - Hydrates into a client-side application with all the capabilities of a progressive web app
-
-export { future as theme } from '@mdx-deck/themes'
